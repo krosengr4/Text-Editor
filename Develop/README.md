@@ -24,10 +24,6 @@
 Welcome to my text editor, "JATE". 
 
 ## Installation
-- Node js
-- Mongoose db
-- Insomnia
-
 
 ## Usage
 - Clone the repository code 
@@ -43,7 +39,7 @@ Welcome to my text editor, "JATE".
 ## Contributing
 
 ### Please contribute to this project:
-- [Submit Bugs and Request Features you'd like to see Implemented](https://github.com/krosengr4/Social-NetworkAPI/issues)
+- [Submit Bugs and Request Features you'd like to see Implemented](https://github.com/krosengr4/Text-Editor/issues)
 
 ## Tests
 No tests are provided.
