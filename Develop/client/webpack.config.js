@@ -20,12 +20,12 @@ module.exports = () => {
     plugins: [
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
-        template: './index/html',
+        template: './index.html',
         title: 'PWA text-editor'
       }),
       // Inject our custom service worker
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
       // Creates a manifest.json file.
