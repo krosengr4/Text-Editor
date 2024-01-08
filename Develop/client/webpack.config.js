@@ -26,14 +26,14 @@ module.exports = () => {
       // Inject our custom service worker
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
+        swDest: 'service-worker.js',
       }),
       // Creates a manifest.json file.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'PWA text-editor',
-        short_name: 'text-editor',
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
         description: 'Edit your texts',
         background_color: '#7eb4e2',
         theme_color: '#73b4e2',
