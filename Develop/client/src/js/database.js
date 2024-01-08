@@ -22,7 +22,7 @@ export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1);
 
   // Create new transaction & specify the DB and privileges
-  const tx = tx.objectStore('jate');
+  const tx = tx.objectStore('jate');` `
 
   // use .add() on the store to pass in the content
   const request = store.add({ content: content });
